@@ -1,0 +1,9 @@
+C:\Users\dostr\source\repos\CFAS\obj\Debug\CFAS.csproj.AssemblyReference.cache
+C:\Users\dostr\source\repos\CFAS\obj\Debug\CFAS.Properties.Resources.resources
+C:\Users\dostr\source\repos\CFAS\obj\Debug\CFAS.csproj.GenerateResource.cache
+C:\Users\dostr\source\repos\CFAS\obj\Debug\CFAS.csproj.CoreCompileInputs.cache
+C:\Users\dostr\source\repos\CFAS\bin\Debug\CFAS.exe.config
+C:\Users\dostr\source\repos\CFAS\bin\Debug\CFAS.exe
+C:\Users\dostr\source\repos\CFAS\bin\Debug\CFAS.pdb
+C:\Users\dostr\source\repos\CFAS\obj\Debug\CFAS.exe
+C:\Users\dostr\source\repos\CFAS\obj\Debug\CFAS.pdb
