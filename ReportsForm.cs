@@ -22,6 +22,7 @@ namespace CFAS
         public ReportsForm()
         {
             Text = "Звіт продажів";
+            Icon = Icons.WindowIcon();
             StartPosition = FormStartPosition.CenterParent;
             ClientSize = new Size(1000, 620);
 
@@ -88,7 +89,7 @@ namespace CFAS
 
         private void BuildReport()
         {
-            // Створюємо нові об'єкти параметрів для уникнення помилки дублювання в колекції
+        
             _table = Db.Query("EXEC sp_sales_report @from, @to",
                 new SqlParameter("@from", dtpFrom.Value.Date), new SqlParameter("@to", dtpTo.Value.Date));
 

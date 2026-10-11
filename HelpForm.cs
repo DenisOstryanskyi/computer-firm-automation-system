@@ -22,6 +22,7 @@ namespace CFAS
         public HelpForm()
         {
             Text = "Довідка CFAS";
+            Icon = Icons.WindowIcon();
             StartPosition = FormStartPosition.CenterParent;
             ClientSize = new Size(700, 420);
 

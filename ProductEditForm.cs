@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Drawing;
+using System.Globalization;
 using System.Windows.Forms;
 
 namespace CFAS
@@ -13,8 +14,8 @@ namespace CFAS
 
         public string ProductName => txtName.Text.Trim();
         public int CategoryId => Convert.ToInt32(cmbCategory.SelectedValue);
-        public decimal Price => decimal.TryParse(txtPrice.Text.Trim(), out decimal p) ? p : 0;
-        public int StockQuantity => int.TryParse(txtStock.Text.Trim(), out int s) ? s : 0;
+        public decimal Price { get { return ParsePrice(); } }
+        public int StockQuantity { get { return ParseStock(); } }
 
         public ProductEditForm() { InitForm("Додавання товару"); }
 
@@ -23,13 +24,35 @@ namespace CFAS
             Text = "Редагування товару";
             txtName.Text = name;
             cmbCategory.SelectedValue = catId;
-            txtPrice.Text = price.ToString("0.00");
+            txtPrice.Text = price.ToString("0.00", CultureInfo.InvariantCulture);
             txtStock.Text = stock.ToString();
+        }
+
+              private decimal ParsePrice()
+        {
+            string text = txtPrice.Text.Trim().Replace(',', '.');
+            decimal p;
+            if (decimal.TryParse(text, NumberStyles.Any, CultureInfo.InvariantCulture, out p))
+            {
+                return p;
+            }
+            return -1;
+        }
+
+        private int ParseStock()
+        {
+            int s;
+            if (int.TryParse(txtStock.Text.Trim(), out s))
+            {
+                return s;
+            }
+            return -1; 
         }
 
         private void InitForm(string title)
         {
             Text = title;
+            Icon = Icons.WindowIcon();
             FormBorderStyle = FormBorderStyle.FixedDialog;
             MaximizeBox = false;
             MinimizeBox = false;
@@ -37,6 +60,7 @@ namespace CFAS
             ClientSize = new Size(430, 230);
 
             txtName.SetBounds(110, 18, 300, 23);
+
             cmbCategory.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbCategory.SetBounds(110, 52, 300, 23);
             cmbCategory.DataSource = Db.Query("SELECT category_id, category_name FROM categories ORDER BY category_name");
@@ -50,7 +74,8 @@ namespace CFAS
             btnOK.Click += (s, e) => {
                 if (string.IsNullOrEmpty(ProductName) || Price < 0 || StockQuantity < 0)
                 {
-                    MessageBox.Show("Перевірте коректність заповнення полів.", "Попередження", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Перевірте коректність заповнення полів.", "Попередження",
+                        MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
                 DialogResult = DialogResult.OK;

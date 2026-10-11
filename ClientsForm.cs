@@ -15,6 +15,7 @@ namespace CFAS
         public ClientsForm()
         {
             Text = "Довідник клієнтів";
+            Icon = Icons.WindowIcon();
             StartPosition = FormStartPosition.CenterParent;
             ClientSize = new Size(800, 450);
 

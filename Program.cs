@@ -11,16 +11,14 @@ namespace CFAS
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            // Спочатку відкриваємо вікно авторизації
             using (var login = new LoginForm())
             {
                 if (login.ShowDialog() != DialogResult.OK)
                 {
-                    return; // Якщо вхід скасовано — завершуємо роботу програми
+                    return; 
                 }
             }
 
-            // Якщо авторизація успішна — відкриваємо головне вікно
             Application.Run(new MainForm());
         }
     }

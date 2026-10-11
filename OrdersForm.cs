@@ -15,6 +15,7 @@ namespace CFAS
         public OrdersForm()
         {
             Text = "Замовлення";
+            Icon = Icons.WindowIcon();
             StartPosition = FormStartPosition.CenterParent;
             ClientSize = new Size(850, 450);
 
@@ -72,7 +73,6 @@ namespace CFAS
 
             if (MessageBox.Show("Видалити замовлення № " + id + "?", "Підтвердження", MessageBoxButtons.YesNo, MessageBoxIcon.Question) != DialogResult.Yes) return;
 
-            // Повертаємо позиції замовлення назад на склад
             Db.Exec("UPDATE p SET p.stock_quantity = p.stock_quantity + s.qty FROM products p JOIN (SELECT product_id, SUM(quantity) AS qty FROM order_items WHERE order_id = @id GROUP BY product_id) s ON s.product_id = p.product_id", new SqlParameter("@id", id));
             Db.Exec("DELETE FROM order_items WHERE order_id = @id", new SqlParameter("@id", id));
             Db.Exec("DELETE FROM orders WHERE order_id = @id", new SqlParameter("@id", id));

@@ -3,9 +3,7 @@ using System.Text;
 
 namespace CFAS
 {
-    /// <summary>
-    /// Хешування паролів за стандартом SHA-256.
-    /// </summary>
+
     public static class PasswordHasher
     {
         public static string Hash(string password)

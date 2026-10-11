@@ -28,6 +28,7 @@ namespace CFAS
             Text = orderId == 0 ? "Нове замовлення" : "Замовлення № " + orderId;
             StartPosition = FormStartPosition.CenterParent;
             ClientSize = new Size(760, 500);
+            Icon = Icons.WindowIcon();
 
             _items.Columns.Add("product_id", typeof(int));
             _items.Columns.Add("Товар", typeof(string));

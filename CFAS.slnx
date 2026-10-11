@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="../CFAS.Tests/CFAS.Tests.csproj" Id="d7a1baaf-ca87-4a55-91ba-d6993260ed28" />
   <Project Path="CFAS.csproj" Id="da892158-d42f-4b68-875e-3693b2cb71a9" />
 </Solution>

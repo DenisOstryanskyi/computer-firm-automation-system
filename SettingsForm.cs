@@ -15,6 +15,7 @@ namespace CFAS
         public SettingsForm()
         {
             Text = "Системні параметри";
+            Icon = Icons.WindowIcon();
             StartPosition = FormStartPosition.CenterParent;
             ClientSize = new Size(650, 300);
 

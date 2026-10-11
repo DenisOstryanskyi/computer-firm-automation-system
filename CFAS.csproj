@@ -58,6 +58,7 @@
     <Compile Include="HelpForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Icons.cs" />
     <Compile Include="JournalForm.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -4,9 +4,7 @@ using System.Data.SqlClient;
 
 namespace CFAS
 {
-    /// <summary>
-    /// Допоміжний клас для виконання SQL-запитів до бази даних.
-    /// </summary>
+
     public static class Db
     {
         public static string ConnectionString
@@ -18,12 +16,11 @@ namespace CFAS
                 {
                     return settings.ConnectionString;
                 }
-                // Резервний рядок підключення для LocalDB
+
                 return "Data Source=(LocalDb)\\MSSQLLocalDB;Initial Catalog=ComputerFirm;Integrated Security=True";
             }
         }
 
-        // Виконання SELECT-запитів (повертає таблицю даних)
         public static DataTable Query(string sql, params SqlParameter[] parameters)
         {
             using (var connection = new SqlConnection(ConnectionString))
@@ -39,7 +36,6 @@ namespace CFAS
             }
         }
 
-        // Виконання INSERT, UPDATE, DELETE або збережених процедур
         public static int Exec(string sql, params SqlParameter[] parameters)
         {
             using (var connection = new SqlConnection(ConnectionString))

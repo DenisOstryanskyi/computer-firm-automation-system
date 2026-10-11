@@ -14,6 +14,7 @@ namespace CFAS
         public LoginForm()
         {
             Text = "Вхід у систему CFAS";
+            Icon = Icons.WindowIcon();
             FormBorderStyle = FormBorderStyle.FixedDialog;
             MaximizeBox = false;
             MinimizeBox = false;
@@ -49,7 +50,6 @@ namespace CFAS
                 return;
             }
 
-            // Перевірка користувача в базі за логіном і хешем пароля
             DataTable table = Db.Query(
                 "SELECT u.user_id, u.full_name, u.login, r.role_name FROM users u " +
                 "JOIN roles r ON r.role_id = u.role_id " +
@@ -67,7 +67,6 @@ namespace CFAS
                 return;
             }
 
-            // Зберігаємо дані в сесію
             Session.UserId = Convert.ToInt32(table.Rows[0]["user_id"]);
             Session.Login = table.Rows[0]["login"].ToString();
             Session.FullName = table.Rows[0]["full_name"].ToString();

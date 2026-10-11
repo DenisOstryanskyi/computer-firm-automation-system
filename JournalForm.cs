@@ -6,9 +6,7 @@ using System.Windows.Forms;
 
 namespace CFAS
 {
-    /// <summary>
-    /// Журнал подій системи (лише для адміністратора).
-    /// </summary>
+    
     public class JournalForm : Form
     {
         private readonly DataGridView dgvJournal = new DataGridView();
@@ -19,6 +17,7 @@ namespace CFAS
         public JournalForm()
         {
             Text = "Журнал подій системи";
+            Icon = Icons.WindowIcon();
             StartPosition = FormStartPosition.CenterParent;
             ClientSize = new Size(850, 480);
 
@@ -28,7 +27,7 @@ namespace CFAS
             cmbEventType.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbEventType.SetBounds(45, 10, 130, 23);
             cmbEventType.Items.Add("Всі");
-            cmbEventType.Items.AddRange(new object[] { "LOGIN", "LOGIN_FAIL", "INSERT", "UPDATE", "DELETE", "ORDER", "SYSTEM" });
+            cmbEventType.Items.AddRange(new object[] { "LOGIN", "LOGIN_FAIL", "LOGOUT", "INSERT", "UPDATE", "DELETE", "ORDER", "SYSTEM" });
             cmbEventType.SelectedIndex = 0;
             cmbEventType.SelectedIndexChanged += delegate { ApplyFilter(); };
 

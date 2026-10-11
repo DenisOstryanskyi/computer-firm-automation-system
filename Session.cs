@@ -1,8 +1,5 @@
 ﻿namespace CFAS
 {
-    /// <summary>
-    /// Зберігає сесію користувача, що успішно увійшов у систему.
-    /// </summary>
     public static class Session
     {
         public static int UserId { get; set; }

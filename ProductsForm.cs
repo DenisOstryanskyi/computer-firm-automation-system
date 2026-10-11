@@ -15,6 +15,7 @@ namespace CFAS
         public ProductsForm()
         {
             Text = "Довідник товарів";
+            Icon = Icons.WindowIcon();
             StartPosition = FormStartPosition.CenterParent;
             ClientSize = new Size(820, 450);
 

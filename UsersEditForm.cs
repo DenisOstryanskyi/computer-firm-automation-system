@@ -41,6 +41,7 @@ namespace CFAS
         private void InitForm(string title)
         {
             Text = title;
+            Icon = Icons.WindowIcon();
             FormBorderStyle = FormBorderStyle.FixedDialog;
             MaximizeBox = false;
             MinimizeBox = false;
