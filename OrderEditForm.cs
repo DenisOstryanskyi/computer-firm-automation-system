@@ -76,7 +76,8 @@ namespace CFAS
             lblStock.Location = new Point(410, 12);
 
             cmbProduct.SelectedIndexChanged += (s, e) => ShowProductInfo();
-            ShowProductInfo();
+            // Початковий вибір товару доступний лише після створення вікна
+            Shown += (s, e) => ShowProductInfo();
 
             var btnAddItem = new Button { Text = "Додати", Bounds = new Rectangle(530, 7, 95, 28) };
             btnAddItem.Click += btnAddItem_Click;

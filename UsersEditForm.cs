@@ -13,6 +13,7 @@ namespace CFAS
         private readonly ComboBox cmbRole = new ComboBox();
         private readonly CheckBox chkActive = new CheckBox();
         private readonly bool _isAdd;
+        private string _roleName;
 
         public string UserLogin => txtLogin.Text.Trim();
         public string UserFullName => txtFullName.Text.Trim();
@@ -34,7 +35,13 @@ namespace CFAS
             txtLogin.Text = login;
             txtLogin.ReadOnly = true;
             txtFullName.Text = name;
-            cmbRole.Text = roleName;
+            _roleName = roleName;
+            // Роль вибирається після створення вікна, інакше випадаючий список лишається на першому елементі
+            Shown += (s, e) =>
+            {
+                int index = cmbRole.FindStringExact(_roleName);
+                if (index >= 0) cmbRole.SelectedIndex = index;
+            };
             chkActive.Checked = active;
         }
 
