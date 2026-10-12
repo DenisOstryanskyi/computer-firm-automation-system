@@ -75,14 +75,8 @@ namespace CFAS
             lblStock.AutoSize = true;
             lblStock.Location = new Point(410, 12);
 
-            cmbProduct.SelectedIndexChanged += (s, e) => {
-                if (cmbProduct.SelectedItem is DataRowView r && r != null)
-                {
-                    txtPrice.Text = Convert.ToDecimal(r["price"]).ToString("0.00");
-                    lblStock.Text = "На складі: " + r["stock_quantity"];
-                }
-            };
-            if (cmbProduct.Items.Count > 0) cmbProduct.SelectedIndex = 0;
+            cmbProduct.SelectedIndexChanged += (s, e) => ShowProductInfo();
+            ShowProductInfo();
 
             var btnAddItem = new Button { Text = "Додати", Bounds = new Rectangle(530, 7, 95, 28) };
             btnAddItem.Click += btnAddItem_Click;
@@ -107,8 +101,8 @@ namespace CFAS
             dgvItems.RowHeadersVisible = false;
             dgvItems.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dgvItems.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvItems.DataBindingComplete += (s, e) => { if (dgvItems.Columns["product_id"] != null) dgvItems.Columns["product_id"].Visible = false; };
             dgvItems.DataSource = _items;
-            if (dgvItems.Columns["product_id"] != null) dgvItems.Columns["product_id"].Visible = false;
 
             var panelBottom = new Panel { Dock = DockStyle.Bottom, Height = 42 };
             lblTotal.AutoSize = true;
@@ -131,6 +125,16 @@ namespace CFAS
 
             if (orderId != 0) LoadOrder(orderId);
             UpdateTotal();
+        }
+
+        // Показує ціну та залишок вибраного товару
+        private void ShowProductInfo()
+        {
+            if (cmbProduct.SelectedItem is DataRowView r)
+            {
+                txtPrice.Text = Convert.ToDecimal(r["price"]).ToString("0.00");
+                lblStock.Text = "На складі: " + r["stock_quantity"];
+            }
         }
 
         private void LoadOrder(int orderId)

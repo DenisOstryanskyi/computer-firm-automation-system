@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace CFAS
 {
-    
+
     public class JournalForm : Form
     {
         private readonly DataGridView dgvJournal = new DataGridView();
@@ -53,6 +53,7 @@ namespace CFAS
             dgvJournal.RowHeadersVisible = false;
             dgvJournal.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dgvJournal.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvJournal.DataBindingComplete += (s, e) => { dgvJournal.Columns["event_id"].Visible = false; };
             dgvJournal.MultiSelect = false;
 
             Controls.Add(dgvJournal);
@@ -71,7 +72,6 @@ namespace CFAS
                 "ORDER BY e.event_time DESC",
                 new SqlParameter("@date", dtpDate.Value.Date));
             dgvJournal.DataSource = _table;
-            dgvJournal.Columns["event_id"].Visible = false;
             ApplyFilter();
         }
 

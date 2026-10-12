@@ -40,6 +40,7 @@ namespace CFAS
             dgvClients.RowHeadersVisible = false;
             dgvClients.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dgvClients.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvClients.DataBindingComplete += (s, e) => { dgvClients.Columns["client_id"].Visible = false; };
 
             Controls.Add(dgvClients);
             Controls.Add(panel);
@@ -50,7 +51,6 @@ namespace CFAS
         {
             _table = Db.Query("SELECT client_id, full_name AS [ПІБ], phone AS [Телефон], email AS [Email], address AS [Адреса] FROM clients ORDER BY full_name");
             dgvClients.DataSource = _table;
-            dgvClients.Columns["client_id"].Visible = false;
             ApplyFilter();
         }
 

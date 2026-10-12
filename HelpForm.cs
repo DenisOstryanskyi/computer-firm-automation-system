@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -30,7 +31,7 @@ namespace CFAS
             lstTopics.Width = 190;
             lstTopics.SelectedIndexChanged += (s, e) => {
                 if (lstTopics.SelectedItem != null)
-                    txtHelp.Text = _topics[lstTopics.SelectedItem.ToString()];
+                    txtHelp.Text = _topics[lstTopics.SelectedItem.ToString()].Replace("\n", Environment.NewLine);
             };
 
             txtHelp.Multiline = true;

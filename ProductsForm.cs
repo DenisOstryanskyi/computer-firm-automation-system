@@ -40,6 +40,7 @@ namespace CFAS
             dgvProducts.RowHeadersVisible = false;
             dgvProducts.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dgvProducts.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvProducts.DataBindingComplete += (s, e) => { dgvProducts.Columns["product_id"].Visible = false; };
 
             Controls.Add(dgvProducts);
             Controls.Add(panel);
@@ -50,7 +51,6 @@ namespace CFAS
         {
             _table = Db.Query("SELECT p.product_id, p.product_name AS [Назва], c.category_name AS [Категорія], p.price AS [Ціна], p.stock_quantity AS [Залишок] FROM products p JOIN categories c ON c.category_id = p.category_id ORDER BY p.product_name");
             dgvProducts.DataSource = _table;
-            dgvProducts.Columns["product_id"].Visible = false;
             ApplyFilter();
         }
 

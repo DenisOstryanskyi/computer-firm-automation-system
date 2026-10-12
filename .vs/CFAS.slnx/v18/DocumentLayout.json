@@ -3,31 +3,59 @@
   "WorkspaceRootPath": "C:\\Users\\dostr\\source\\repos\\CFAS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D7A1BAAF-CA87-4A55-91BA-D6993260ED28}|..\\CFAS.Tests\\CFAS.Tests.csproj|c:\\users\\dostr\\source\\repos\\cfas.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|C:\\Users\\dostr\\source\\repos\\CFAS\\ordersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|solutionrelative:ordersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|C:\\Users\\dostr\\source\\repos\\CFAS\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|C:\\Users\\dostr\\source\\repos\\CFAS\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|C:\\Users\\dostr\\source\\repos\\CFAS\\helpform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|c:\\users\\dostr\\source\\repos\\cfas\\helpform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|solutionrelative:helpform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7A1BAAF-CA87-4A55-91BA-D6993260ED28}|..\\CFAS.Tests\\CFAS.Tests.csproj|c:\\users\\dostr\\source\\repos\\cfas.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|C:\\Users\\dostr\\source\\repos\\CFAS\\icons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|solutionrelative:icons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|C:\\Users\\dostr\\source\\repos\\CFAS\\usersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|solutionrelative:usersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|C:\\Users\\dostr\\source\\repos\\CFAS\\journalform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|solutionrelative:journalform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|C:\\Users\\dostr\\source\\repos\\CFAS\\producteditform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|solutionrelative:producteditform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|C:\\Users\\dostr\\source\\repos\\CFAS\\ordereditform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|solutionrelative:ordereditform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|C:\\Users\\dostr\\source\\repos\\CFAS\\productsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|solutionrelative:productsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|C:\\Users\\dostr\\source\\repos\\CFAS\\clientsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|solutionrelative:clientsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|C:\\Users\\dostr\\source\\repos\\CFAS\\clienteditform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|solutionrelative:clienteditform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|C:\\Users\\dostr\\source\\repos\\CFAS\\icons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|solutionrelative:icons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|C:\\Users\\dostr\\source\\repos\\CFAS\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|solutionrelative:db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|C:\\Users\\dostr\\source\\repos\\CFAS\\producteditform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|solutionrelative:producteditform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|C:\\Users\\dostr\\source\\repos\\CFAS\\settingsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,47 +66,19 @@
       "RelativeMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|solutionrelative:userseditform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|C:\\Users\\dostr\\source\\repos\\CFAS\\usersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|solutionrelative:usersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|C:\\Users\\dostr\\source\\repos\\CFAS\\reportsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|solutionrelative:reportsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|C:\\Users\\dostr\\source\\repos\\CFAS\\ordereditform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|solutionrelative:ordereditform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|C:\\Users\\dostr\\source\\repos\\CFAS\\ordersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|solutionrelative:ordersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|C:\\Users\\dostr\\source\\repos\\CFAS\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|solutionrelative:passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|C:\\Users\\dostr\\source\\repos\\CFAS\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|solutionrelative:db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|C:\\Users\\dostr\\source\\repos\\CFAS\\clienteditform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|solutionrelative:clienteditform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|C:\\Users\\dostr\\source\\repos\\CFAS\\clientsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|solutionrelative:clientsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|C:\\Users\\dostr\\source\\repos\\CFAS\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|C:\\Users\\dostr\\source\\repos\\CFAS\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|c:\\users\\dostr\\source\\repos\\cfas\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|C:\\Users\\dostr\\source\\repos\\CFAS\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA892158-D42F-4B68-875E-3693B2CB71A9}|CFAS.csproj|solutionrelative:session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -89,251 +89,245 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\dostr\\source\\repos\\CFAS.Tests\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "..\\CFAS.Tests\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\dostr\\source\\repos\\CFAS.Tests\\UnitTest1.cs",
-              "RelativeToolTip": "..\\CFAS.Tests\\UnitTest1.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAcwCYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-11T10:50:30.998Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Icons.cs",
-              "DocumentMoniker": "C:\\Users\\dostr\\source\\repos\\CFAS\\Icons.cs",
-              "RelativeDocumentMoniker": "Icons.cs",
-              "ToolTip": "C:\\Users\\dostr\\source\\repos\\CFAS\\Icons.cs",
-              "RelativeToolTip": "Icons.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAiwJEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-11T10:44:11.209Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "JournalForm.cs",
-              "DocumentMoniker": "C:\\Users\\dostr\\source\\repos\\CFAS\\JournalForm.cs",
-              "RelativeDocumentMoniker": "JournalForm.cs",
-              "ToolTip": "C:\\Users\\dostr\\source\\repos\\CFAS\\JournalForm.cs",
-              "RelativeToolTip": "JournalForm.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAiwFsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-10T08:36:40.261Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductEditForm.cs",
-              "DocumentMoniker": "C:\\Users\\dostr\\source\\repos\\CFAS\\ProductEditForm.cs",
-              "RelativeDocumentMoniker": "ProductEditForm.cs",
-              "ToolTip": "C:\\Users\\dostr\\source\\repos\\CFAS\\ProductEditForm.cs",
-              "RelativeToolTip": "ProductEditForm.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAiwGEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-10T08:36:18.086Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProductsForm.cs",
-              "DocumentMoniker": "C:\\Users\\dostr\\source\\repos\\CFAS\\ProductsForm.cs",
-              "RelativeDocumentMoniker": "ProductsForm.cs",
-              "ToolTip": "C:\\Users\\dostr\\source\\repos\\CFAS\\ProductsForm.cs",
-              "RelativeToolTip": "ProductsForm.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAiwH4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-10T08:34:54.675Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SettingsForm.cs",
-              "DocumentMoniker": "C:\\Users\\dostr\\source\\repos\\CFAS\\SettingsForm.cs",
-              "RelativeDocumentMoniker": "SettingsForm.cs",
-              "ToolTip": "C:\\Users\\dostr\\source\\repos\\CFAS\\SettingsForm.cs",
-              "RelativeToolTip": "SettingsForm.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAiwD0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-10T08:20:22.309Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UsersEditForm.cs",
-              "DocumentMoniker": "C:\\Users\\dostr\\source\\repos\\CFAS\\UsersEditForm.cs",
-              "RelativeDocumentMoniker": "UsersEditForm.cs",
-              "ToolTip": "C:\\Users\\dostr\\source\\repos\\CFAS\\UsersEditForm.cs",
-              "RelativeToolTip": "UsersEditForm.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAiwFgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-10T08:19:54.024Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UsersForm.cs",
-              "DocumentMoniker": "C:\\Users\\dostr\\source\\repos\\CFAS\\UsersForm.cs",
-              "RelativeDocumentMoniker": "UsersForm.cs",
-              "ToolTip": "C:\\Users\\dostr\\source\\repos\\CFAS\\UsersForm.cs",
-              "RelativeToolTip": "UsersForm.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAmwGsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-10T08:19:26.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "HelpForm.cs",
               "DocumentMoniker": "C:\\Users\\dostr\\source\\repos\\CFAS\\HelpForm.cs",
               "RelativeDocumentMoniker": "HelpForm.cs",
               "ToolTip": "C:\\Users\\dostr\\source\\repos\\CFAS\\HelpForm.cs",
               "RelativeToolTip": "HelpForm.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAmwDAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-10T08:17:08.91Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ReportsForm.cs",
-              "DocumentMoniker": "C:\\Users\\dostr\\source\\repos\\CFAS\\ReportsForm.cs",
-              "RelativeDocumentMoniker": "ReportsForm.cs",
-              "ToolTip": "C:\\Users\\dostr\\source\\repos\\CFAS\\ReportsForm.cs",
-              "RelativeToolTip": "ReportsForm.cs",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAmwI8AAAABAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\dostr\\source\\repos\\CFAS.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\CFAS.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\dostr\\source\\repos\\CFAS.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "..\\CFAS.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAuwCYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-10T08:16:39.56Z",
+              "WhenOpened": "2026-10-11T10:50:30.998Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "Icons.cs",
+              "DocumentMoniker": "C:\\Users\\dostr\\source\\repos\\CFAS\\Icons.cs",
+              "RelativeDocumentMoniker": "Icons.cs",
+              "ToolTip": "C:\\Users\\dostr\\source\\repos\\CFAS\\Icons.cs",
+              "RelativeToolTip": "Icons.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAAAJEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T10:44:11.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JournalForm.cs",
+              "DocumentMoniker": "C:\\Users\\dostr\\source\\repos\\CFAS\\JournalForm.cs",
+              "RelativeDocumentMoniker": "JournalForm.cs",
+              "ToolTip": "C:\\Users\\dostr\\source\\repos\\CFAS\\JournalForm.cs",
+              "RelativeToolTip": "JournalForm.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAYwFsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T08:36:40.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductEditForm.cs",
+              "DocumentMoniker": "C:\\Users\\dostr\\source\\repos\\CFAS\\ProductEditForm.cs",
+              "RelativeDocumentMoniker": "ProductEditForm.cs",
+              "ToolTip": "C:\\Users\\dostr\\source\\repos\\CFAS\\ProductEditForm.cs",
+              "RelativeToolTip": "ProductEditForm.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAAAGEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T08:36:18.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductsForm.cs",
+              "DocumentMoniker": "C:\\Users\\dostr\\source\\repos\\CFAS\\ProductsForm.cs",
+              "RelativeDocumentMoniker": "ProductsForm.cs",
+              "ToolTip": "C:\\Users\\dostr\\source\\repos\\CFAS\\ProductsForm.cs",
+              "RelativeToolTip": "ProductsForm.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAYwH4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T08:34:54.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SettingsForm.cs",
+              "DocumentMoniker": "C:\\Users\\dostr\\source\\repos\\CFAS\\SettingsForm.cs",
+              "RelativeDocumentMoniker": "SettingsForm.cs",
+              "ToolTip": "C:\\Users\\dostr\\source\\repos\\CFAS\\SettingsForm.cs",
+              "RelativeToolTip": "SettingsForm.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAD0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T08:20:22.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UsersEditForm.cs",
+              "DocumentMoniker": "C:\\Users\\dostr\\source\\repos\\CFAS\\UsersEditForm.cs",
+              "RelativeDocumentMoniker": "UsersEditForm.cs",
+              "ToolTip": "C:\\Users\\dostr\\source\\repos\\CFAS\\UsersEditForm.cs",
+              "RelativeToolTip": "UsersEditForm.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAAFgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T08:19:54.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsersForm.cs",
+              "DocumentMoniker": "C:\\Users\\dostr\\source\\repos\\CFAS\\UsersForm.cs",
+              "RelativeDocumentMoniker": "UsersForm.cs",
+              "ToolTip": "C:\\Users\\dostr\\source\\repos\\CFAS\\UsersForm.cs",
+              "RelativeToolTip": "UsersForm.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAYwGsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T08:19:26.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ReportsForm.cs",
+              "DocumentMoniker": "C:\\Users\\dostr\\source\\repos\\CFAS\\ReportsForm.cs",
+              "RelativeDocumentMoniker": "ReportsForm.cs",
+              "ToolTip": "C:\\Users\\dostr\\source\\repos\\CFAS\\ReportsForm.cs",
+              "RelativeToolTip": "ReportsForm.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAAwI8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T08:16:39.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "OrderEditForm.cs",
               "DocumentMoniker": "C:\\Users\\dostr\\source\\repos\\CFAS\\OrderEditForm.cs",
               "RelativeDocumentMoniker": "OrderEditForm.cs",
               "ToolTip": "C:\\Users\\dostr\\source\\repos\\CFAS\\OrderEditForm.cs",
               "RelativeToolTip": "OrderEditForm.cs",
-              "ViewState": "AgIAANcAAAAAAAAAAAAiwOUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAANIAAAAAAAAAAAAYwOkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-10T08:16:04.579Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 1,
               "Title": "OrdersForm.cs",
               "DocumentMoniker": "C:\\Users\\dostr\\source\\repos\\CFAS\\OrdersForm.cs",
               "RelativeDocumentMoniker": "OrdersForm.cs",
               "ToolTip": "C:\\Users\\dostr\\source\\repos\\CFAS\\OrdersForm.cs",
               "RelativeToolTip": "OrdersForm.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAmwFQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwFQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-10T08:15:37.478Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "PasswordHasher.cs",
               "DocumentMoniker": "C:\\Users\\dostr\\source\\repos\\CFAS\\PasswordHasher.cs",
               "RelativeDocumentMoniker": "PasswordHasher.cs",
               "ToolTip": "C:\\Users\\dostr\\source\\repos\\CFAS\\PasswordHasher.cs",
               "RelativeToolTip": "PasswordHasher.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwBYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-09T13:42:32.096Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-09T13:42:32.096Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 12,
               "Title": "Db.cs",
               "DocumentMoniker": "C:\\Users\\dostr\\source\\repos\\CFAS\\Db.cs",
               "RelativeDocumentMoniker": "Db.cs",
               "ToolTip": "C:\\Users\\dostr\\source\\repos\\CFAS\\Db.cs",
               "RelativeToolTip": "Db.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAiwDEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAiwDEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-09T13:42:11.013Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 10,
               "Title": "ClientEditForm.cs",
               "DocumentMoniker": "C:\\Users\\dostr\\source\\repos\\CFAS\\ClientEditForm.cs",
               "RelativeDocumentMoniker": "ClientEditForm.cs",
               "ToolTip": "C:\\Users\\dostr\\source\\repos\\CFAS\\ClientEditForm.cs",
               "RelativeToolTip": "ClientEditForm.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAiwEQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAYwEQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-09T13:37:21.938Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 9,
               "Title": "ClientsForm.cs",
               "DocumentMoniker": "C:\\Users\\dostr\\source\\repos\\CFAS\\ClientsForm.cs",
               "RelativeDocumentMoniker": "ClientsForm.cs",
               "ToolTip": "C:\\Users\\dostr\\source\\repos\\CFAS\\ClientsForm.cs",
               "RelativeToolTip": "ClientsForm.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAiwHsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAcwHsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-09T13:36:44.705Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\Users\\dostr\\source\\repos\\CFAS\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
               "ToolTip": "C:\\Users\\dostr\\source\\repos\\CFAS\\MainForm.cs",
               "RelativeToolTip": "MainForm.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAiwFgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAswFgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-09T13:34:21.979Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dostr\\source\\repos\\CFAS\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\dostr\\source\\repos\\CFAS\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAmwBgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwBgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-09T13:33:40.388Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-09T13:33:40.388Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 2,
               "Title": "LoginForm.cs",
               "DocumentMoniker": "C:\\Users\\dostr\\source\\repos\\CFAS\\LoginForm.cs",
               "RelativeDocumentMoniker": "LoginForm.cs",
               "ToolTip": "C:\\Users\\dostr\\source\\repos\\CFAS\\LoginForm.cs",
               "RelativeToolTip": "LoginForm.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAowFMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-09T13:31:44.371Z",
               "EditorCaption": ""
@@ -348,8 +342,7 @@
               "RelativeToolTip": "Session.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-09T13:31:21.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-09T13:31:21.142Z"
             }
           ]
         }

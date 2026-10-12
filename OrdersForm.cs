@@ -44,6 +44,7 @@ namespace CFAS
             dgvOrders.RowHeadersVisible = false;
             dgvOrders.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dgvOrders.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvOrders.DataBindingComplete += (s, e) => { dgvOrders.Columns["order_id"].Visible = false; };
 
             Controls.Add(dgvOrders);
             Controls.Add(panel);
@@ -56,7 +57,6 @@ namespace CFAS
                 "SELECT o.order_id, o.order_date AS [Дата], c.full_name AS [Клієнт], ISNULL(u.login, '-') AS [Менеджер], o.status AS [Статус], dbo.fn_order_total(o.order_id) AS [Сума] " +
                 "FROM orders o JOIN clients c ON c.client_id = o.client_id LEFT JOIN users u ON u.user_id = o.user_id ORDER BY o.order_date DESC");
             dgvOrders.DataSource = _table;
-            dgvOrders.Columns["order_id"].Visible = false;
             ApplyFilter();
         }
 

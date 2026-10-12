@@ -37,6 +37,7 @@ namespace CFAS
             dgvUsers.RowHeadersVisible = false;
             dgvUsers.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dgvUsers.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvUsers.DataBindingComplete += (s, e) => { dgvUsers.Columns["user_id"].Visible = false; };
 
             Controls.Add(dgvUsers);
             Controls.Add(panel);
@@ -47,7 +48,6 @@ namespace CFAS
         {
             _table = Db.Query("SELECT u.user_id, u.login AS [Логін], u.full_name AS [ПІБ], r.role_name AS [Роль], u.is_active AS [Активний] FROM users u JOIN roles r ON r.role_id = u.role_id ORDER BY u.login");
             dgvUsers.DataSource = _table;
-            dgvUsers.Columns["user_id"].Visible = false;
             ApplyFilter();
         }
 
