@@ -62,7 +62,7 @@ namespace CFAS
 
         private void ApplyFilter()
         {
-            string text = txtSearch.Text.Trim().Replace("'", "''");
+            string text = txtSearch.Text.Trim().Replace("'", "''"); 
             _table.DefaultView.RowFilter = text.Length == 0 ? "" : "[Клієнт] LIKE '%" + text + "%' OR [Статус] LIKE '%" + text + "%'";
         }
 
