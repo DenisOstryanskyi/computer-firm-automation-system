@@ -18,6 +18,7 @@ namespace CFAS
         {
             Text = "Журнал подій системи";
             Icon = Icons.WindowIcon();
+            HelpForm.AttachF1(this, HelpForm.TopicJournal);
             StartPosition = FormStartPosition.CenterParent;
             ClientSize = new Size(850, 480);
 

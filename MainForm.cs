@@ -1,6 +1,5 @@
 ﻿using System.Data.SqlClient;
 using System.Drawing;
-using System.Reflection;
 using System.Windows.Forms;
 
 namespace CFAS
@@ -19,6 +18,7 @@ namespace CFAS
             StartPosition = FormStartPosition.CenterScreen;
             ClientSize = new Size(850, 500);
             Icon = Icons.WindowIcon();
+            HelpForm.AttachF1(this, HelpForm.TopicMain);
 
             if (Session.RoleName != "Адміністратор")
             {
@@ -78,12 +78,10 @@ namespace CFAS
 
         private void miAbout_Click(object sender, System.EventArgs e)
         {
-            string version = Assembly.GetExecutingAssembly().GetName().Version.ToString();
-            MessageBox.Show(
-                "CFAS — інформаційна система автоматизації діяльності комп'ютерної фірми.\n" +
-                "Версія: " + version + "\n" +
-                "Розробник: Острянський Денис, група 581-ІПЗ",
-                "Про програму", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            using (var about = new AboutForm())
+            {
+                about.ShowDialog(this);
+            }
         }
     }
 }

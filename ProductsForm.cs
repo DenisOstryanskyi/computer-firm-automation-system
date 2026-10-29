@@ -16,6 +16,7 @@ namespace CFAS
         {
             Text = "Довідник товарів";
             Icon = Icons.WindowIcon();
+            HelpForm.AttachF1(this, HelpForm.TopicDirectories);
             StartPosition = FormStartPosition.CenterParent;
             ClientSize = new Size(820, 450);
 

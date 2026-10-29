@@ -23,6 +23,7 @@ namespace CFAS
         {
             Text = "Звіт продажів";
             Icon = Icons.WindowIcon();
+            HelpForm.AttachF1(this, HelpForm.TopicReports);
             StartPosition = FormStartPosition.CenterParent;
             ClientSize = new Size(1000, 620);
 

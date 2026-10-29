@@ -16,6 +16,7 @@ namespace CFAS
         {
             Text = "Користувачі системи";
             Icon = Icons.WindowIcon();
+            HelpForm.AttachF1(this, HelpForm.TopicUsers);
             StartPosition = FormStartPosition.CenterParent;
             ClientSize = new Size(700, 420);
 

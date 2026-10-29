@@ -21,6 +21,11 @@ namespace CFAS
                 MessageBox.Show(msg, "Помилка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             };
 
+            if (!DbInitializer.EnsureCreated())
+            {
+                return;
+            }
+
             using (var login = new LoginForm())
             {
                 if (login.ShowDialog() != DialogResult.OK)

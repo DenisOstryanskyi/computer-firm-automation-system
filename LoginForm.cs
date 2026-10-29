@@ -15,6 +15,7 @@ namespace CFAS
         {
             Text = "Вхід у систему CFAS";
             Icon = Icons.WindowIcon();
+            HelpForm.AttachF1(this, HelpForm.TopicLogin);
             FormBorderStyle = FormBorderStyle.FixedDialog;
             MaximizeBox = false;
             MinimizeBox = false;

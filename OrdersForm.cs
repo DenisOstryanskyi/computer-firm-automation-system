@@ -16,6 +16,7 @@ namespace CFAS
         {
             Text = "Замовлення";
             Icon = Icons.WindowIcon();
+            HelpForm.AttachF1(this, HelpForm.TopicOrders);
             StartPosition = FormStartPosition.CenterParent;
             ClientSize = new Size(850, 450);
 

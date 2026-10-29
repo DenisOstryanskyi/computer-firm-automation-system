@@ -29,6 +29,7 @@ namespace CFAS
             StartPosition = FormStartPosition.CenterParent;
             ClientSize = new Size(760, 500);
             Icon = Icons.WindowIcon();
+            HelpForm.AttachF1(this, HelpForm.TopicOrders);
 
             _items.Columns.Add("product_id", typeof(int));
             _items.Columns.Add("Товар", typeof(string));
